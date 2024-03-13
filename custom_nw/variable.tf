@@ -1,7 +1,7 @@
 variable "ami_id" {
     description = "passing ami value to main.tf"
     type = string
-    default = "ami-0f403e3180720dd7e"
+    default = "ami-0d7a109bf30624c99"
 }
 
 variable "instance_type" {
