@@ -3,3 +3,8 @@ output "public-ip" {
     sensitive = true
   
 }
+output "private-ip" {
+    value = aws_instance.localname.private_ip
+    sensitive = true
+  
+}
